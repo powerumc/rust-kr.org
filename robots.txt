@@ -1,2 +1,3 @@
 User-agent: *
+Allow: /
 Sitemap: https://rust-kr.org/sitemap.xml

@@ -35,7 +35,7 @@
   
   <h1 id="2015nyeon-3hweo-21il-koweddmoim">2015년 3월 21일 코딩모임</h1>
 <pre style="background-color:#ffffff;">
-<span style="font-weight:bold;color:#a71d5d;">use </span><span style="color:#323232;">chrono::{DateTime, Local, Duration};
+<code class="language-rust" data-lang="rust"><span style="font-weight:bold;color:#a71d5d;">use </span><span style="color:#323232;">chrono::{DateTime, Local, Duration};
 
 </span><span style="font-style:italic;color:#969896;">// http://www.toz.co.kr/branch/main/index.htm?id=24
 // 사랑해요 네이버 개발자센터!
@@ -46,7 +46,7 @@ assert!(place </span><span style="font-weight:bold;color:#a71d5d;">!= </span><sp
 </span><span style="font-weight:bold;color:#a71d5d;">let</span><span style="color:#323232;"> end </span><span style="font-weight:bold;color:#a71d5d;">=</span><span style="color:#323232;"> start </span><span style="font-weight:bold;color:#a71d5d;">+ </span><span style="color:#323232;">Duration::hours(</span><span style="color:#0086b3;">4</span><span style="color:#323232;">);
 
 </span><span style="font-style:italic;color:#969896;">// 추가하려면 klutzy를 호출
-</span><span style="font-weight:bold;color:#a71d5d;">let mut</span><span style="color:#323232;"> members_and_tasks: Vec&lt;(</span><span style="font-weight:bold;color:#a71d5d;">&amp;&#39;static str</span><span style="color:#323232;">, </span><span style="font-weight:bold;color:#a71d5d;">&amp;&#39;static str</span><span style="color:#323232;">)&gt; </span><span style="font-weight:bold;color:#a71d5d;">= </span><span style="color:#323232;">vec![
+</span><span style="font-weight:bold;color:#a71d5d;">let mut</span><span style="color:#323232;"> members_and_tasks: </span><span style="color:#0086b3;">Vec</span><span style="color:#323232;">&lt;(</span><span style="font-weight:bold;color:#a71d5d;">&amp;&#39;static str</span><span style="color:#323232;">, </span><span style="font-weight:bold;color:#a71d5d;">&amp;&#39;static str</span><span style="color:#323232;">)&gt; </span><span style="font-weight:bold;color:#a71d5d;">= </span><span style="color:#323232;">vec![
     (</span><span style="color:#183691;">&quot;klutzy&quot;</span><span style="color:#323232;">, </span><span style="color:#183691;">&quot;suruga&quot;</span><span style="color:#323232;">),
     (</span><span style="color:#183691;">&quot;sanxiyn&quot;</span><span style="color:#323232;">, </span><span style="color:#183691;">&quot;rustc span&quot;</span><span style="color:#323232;">),
     (</span><span style="color:#183691;">&quot;Kroisse&quot;</span><span style="color:#323232;">, </span><span style="color:#183691;">&quot;rvwe&quot;</span><span style="color:#323232;">), </span><span style="font-style:italic;color:#969896;">// &lt;Kroisse&gt; rvwe가 대체 뭐죠
@@ -58,7 +58,7 @@ assert!(place </span><span style="font-weight:bold;color:#a71d5d;">!= </span><sp
 members_and_tasks.</span><span style="color:#62a35c;">reserve</span><span style="color:#323232;">(</span><span style="color:#0086b3;">2</span><span style="color:#323232;">);
 
 assert!(members.</span><span style="color:#62a35c;">iter</span><span style="color:#323232;">().</span><span style="color:#62a35c;">all</span><span style="color:#323232;">(|</span><span style="font-weight:bold;color:#a71d5d;">&amp;</span><span style="color:#323232;">(ref member, _)| member.</span><span style="color:#62a35c;">has_laptop</span><span style="color:#323232;">()));
-</span></pre>
+</span></code></pre>
 
 </article>
 
